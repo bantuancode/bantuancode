@@ -7,6 +7,7 @@ import { FaClock, FaTag, FaArrowLeft, FaEye } from "react-icons/fa";
 import type { Metadata } from "next";
 import { BlogPostJsonLd } from "@/components/seo/JsonLd";
 import { ReadingProgress } from "@/components/blog/ReadingProgress";
+import { ViewTracker } from "@/components/blog/ViewTracker";
 
 type PageProps = {
   params: Promise<{ slug: string }>;
@@ -55,10 +56,10 @@ export default async function BlogPostPage({ params }: PageProps) {
   if (error || !post) notFound();
 
   // Increment views
-  await supabase
-    .from("blog_posts")
-    .update({ views: (post.views || 0) + 1 })
-    .eq("id", post.id);
+  // await supabase
+  //   .from("blog_posts")
+  //   .update({ views: (post.views || 0) + 1 })
+  //   .eq("id", post.id);
 
   // Related posts
   const { data: relatedPosts } = await supabase
@@ -96,6 +97,7 @@ export default async function BlogPostPage({ params }: PageProps) {
 
   return (
     <>
+      <ViewTracker postId={post.id} slug={post.slug} />
       {/* Reading Progress Bar */}
       <ReadingProgress />
 
