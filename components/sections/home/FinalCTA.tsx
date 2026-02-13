@@ -5,7 +5,7 @@ import { FaWhatsapp, FaRocket, FaCheckCircle } from "react-icons/fa";
 
 export const FinalCTA = () => {
   const quickStats = [
-    { icon: FaCheckCircle, text: "50+ Projects Delivered" },
+    { icon: FaCheckCircle, text: "100+ Projects Delivered" },
     { icon: FaRocket, text: "3-4 Hari Average Delivery" },
     { icon: FaCheckCircle, text: "100% Confidential" },
   ];
@@ -171,8 +171,8 @@ export const FinalCTA = () => {
         {/* Bottom Note */}
         <div className="mt-16 pt-8 border-t border-slate-700/50 text-center">
           <p className="text-slate-500 text-sm">
-            Lebih dari 50 mahasiswa telah mempercayai layanan kami. Bergabunglah
-            dengan mereka hari ini! 🚀
+            Lebih dari 100 mahasiswa telah mempercayai layanan kami.
+            Bergabunglah dengan mereka hari ini! 🚀
           </p>
         </div>
       </div>
