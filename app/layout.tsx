@@ -5,6 +5,7 @@ import { Navbar } from "@/components/layouts/Navbar";
 import { Footer } from "@/components/layouts/Footer";
 import type { Viewport } from "next";
 import { LocalBusinessJsonLd } from "@/components/seo/JsonLd";
+import { GoogleAnalytics } from "@next/third-parties/google";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -85,10 +86,9 @@ export const metadata: Metadata = {
   // },
 
   // Verification (isi nanti setelah daftar Google Search Console)
-  // verification: {
-  //   google: 'your-google-verification-code',
-  // },
-
+  verification: {
+    google: "IkipW660ZaA7zQRfWGUkrcTTCZued9WCdsFJaANs96k",
+  },
   // Robots
   robots: {
     index: true,
@@ -140,6 +140,7 @@ export default function RootLayout({
 
         <main id="main-content" className="flex-1">
           {children}
+          <GoogleAnalytics gaId="G-EJMSB3X1BB" />
         </main>
 
         {/* <Footer /> */}
