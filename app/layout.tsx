@@ -25,7 +25,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   // Basic
-  metadataBase: new URL("https://bantuancode.my.id"),
+  metadataBase: new URL("https://bantuancode.com"),
   title: {
     default: "Bantuancode - Jasa Coding untuk Mahasiswa IT",
     template: "%s | Bantuancode",
@@ -46,7 +46,7 @@ export const metadata: Metadata = {
     "jasa flutter",
     "jasa python",
   ],
-  authors: [{ name: "Bantuancode", url: "https://bantuancode.my.id" }],
+  authors: [{ name: "Bantuancode", url: "https://bantuancode.com" }],
   creator: "Bantuancode",
   publisher: "Bantuancode",
 
@@ -54,7 +54,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "id_ID",
-    url: "https://bantuancode.my.id",
+    url: "https://bantuancode.com",
     siteName: "Bantuancode",
     title: "Bantuancode - Jasa Coding untuk Mahasiswa IT",
     description:
@@ -104,9 +104,9 @@ export const metadata: Metadata = {
 
   // Canonical
   alternates: {
-    canonical: "https://bantuancode.my.id",
+    canonical: "https://bantuancode.com",
     languages: {
-      "id-ID": "https://bantuancode.my.id",
+      "id-ID": "https://bantuancode.com",
     },
   },
 };

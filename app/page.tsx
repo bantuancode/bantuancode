@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   description:
     "Bantuancode hadir untuk membantu mahasiswa IT menyelesaikan tugas coding. Web, mobile, machine learning, cybersecurity, IoT. Cepat, berkualitas, terjangkau.",
   alternates: {
-    canonical: "https://bantuancode.my.id",
+    canonical: "https://bantuancode.com",
   },
 };
 
