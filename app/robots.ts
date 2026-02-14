@@ -9,7 +9,7 @@ export default function robots(): MetadataRoute.Robots {
         disallow: ["/admin", "/admin/", "/auth/", "/api/"],
       },
     ],
-    sitemap: "https://bantuancode.my.id/sitemap.xml",
-    host: "https://bantuancode.my.id",
+    sitemap: "https://bantuancode.com/sitemap.xml",
+    host: "https://bantuancode.com",
   };
 }

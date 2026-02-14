@@ -2,7 +2,7 @@
 
 # 👋 Hi, I'm Bantuancode!
 
-### 💻 *Your Trusted Partner for Coding Assignments*
+### 💻 _Your Trusted Partner for Coding Assignments_
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=3B82F6&center=true&vCenter=true&width=600&lines=Helping+Indonesian+IT+Students+Succeed;Web+%7C+Mobile+%7C+AI+%7C+Cybersecurity;Professional+Coding+Services;Fast+%7C+Quality+%7C+Affordable" alt="Typing SVG" />
 
@@ -13,12 +13,13 @@
 ## 🚀 About Me
 
 Saya adalah **Bantuancode** — platform jasa coding profesional yang fokus membantu mahasiswa IT Indonesia menyelesaikan tugas dan project pemrograman dengan cepat, berkualitas, dan terjangkau.
+
 ```javascript
 const bantuancode = {
   location: "Indonesia 🇮🇩",
   services: ["Web Dev", "Mobile Dev", "Machine Learning", "Cybersecurity"],
   mission: "Membantu mahasiswa IT sukses, satu baris kode pada satu waktu",
-  availability: "24/7 via WhatsApp"
+  availability: "24/7 via WhatsApp",
 };
 ```
 
@@ -77,8 +78,11 @@ Ethical Hacking • Forensics
 ## 📊 GitHub Stats
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=bantuancode&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117" alt="GitHub Stats" height="165" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=bantuancode&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117" alt="Top Languages" height="165" />
+
+<img src="https://github-readme-stats-sigma-five.vercel.app/api?username=bantuancode&show_icons=true&theme=tokyonight&hide_border=true" height="165"/>
+
+<img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=bantuancode&layout=compact&theme=tokyonight&hide_border=true" height="165"/>
+
 </div>
 
 ---
@@ -118,13 +122,16 @@ Harga mulai Rp 200.000
 
 ---
 
-## 🌟 Featured Project
+## 🌟 GitHub Activity
 
-<a href="https://github.com/bantuancode/bantuancode">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=bantuancode&repo=bantuancode&theme=tokyonight&hide_border=true&bg_color=0D1117" />
-</a>
+<div align="center">
 
-**Bantuancode Platform** — Full-stack website dengan Next.js 15, Supabase, Admin Dashboard, dan Blog CMS.
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=bantuancode&theme=tokyonight" />
+
+</div>
+
+🚀 Actively building web applications, dashboards, and AI systems.
+📩 Open for project collaboration.
 
 ---
 
