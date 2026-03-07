@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     description: "Pertanyaan yang sering ditanya seputar layanan coding kami",
   },
   alternates: {
-    canonical: "https://bantuancode.com/layanan/infrastructure",
+    canonical: "https://bantuancode.com/faq",
   },
 };
 

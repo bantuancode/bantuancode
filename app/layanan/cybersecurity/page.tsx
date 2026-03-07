@@ -1,25 +1,26 @@
 import React from "react";
 import { CybersecurityPage } from "@/components/pages/layanan/CybersecurityPage";
 import type { Metadata } from "next";
+import { ServiceJsonLd, BreadcrumbListJsonLd } from "@/components/seo/JsonLd";
 
 export const metadata: Metadata = {
-  title: "Cybersecurity - Ethical Hacking, Digital Forensics",
+  title: "Jasa Cybersecurity & Ethical Hacking untuk Mahasiswa",
   description:
-    "Layanan Cybersecurity profesional: Ethical Hacking & Penetration Testing, Digital Forensics, Security Audit. Vulnerability Assessment, Web Security, Network Security untuk tugas kuliah dan research.",
+    "Jasa bantuan tugas cybersecurity: ethical hacking, penetration testing, digital forensics, dan security audit untuk mahasiswa. Untuk keperluan akademis dan riset. Mulai Rp 200.000.",
   keywords: [
-    "jasa ethical hacking",
+    "jasa cybersecurity mahasiswa",
+    "jasa ethical hacking mahasiswa",
     "jasa penetration testing",
     "jasa digital forensics",
     "jasa security audit",
-    "web security",
-    "network security",
-    "vulnerability assessment",
-    "cyber security",
+    "jasa bantuan tugas keamanan siber",
+    "web security mahasiswa",
+    "network security mahasiswa",
   ],
   openGraph: {
-    title: "Cybersecurity Services - Bantuancode",
+    title: "Jasa Cybersecurity & Ethical Hacking - Bantuancode",
     description:
-      "Layanan Ethical Hacking, Digital Forensics, dan Security Audit untuk mahasiswa",
+      "Jasa bantuan tugas cybersecurity untuk mahasiswa. Ethical hacking, forensics, security audit. Mulai Rp 200.000.",
   },
   alternates: {
     canonical: "https://bantuancode.com/layanan/cybersecurity",
@@ -27,5 +28,22 @@ export const metadata: Metadata = {
 };
 
 export default function Cybersecurity() {
-  return <CybersecurityPage />;
+  return (
+    <>
+      <BreadcrumbListJsonLd
+        items={[
+          { name: "Beranda", url: "https://bantuancode.com" },
+          { name: "Layanan", url: "https://bantuancode.com/layanan" },
+          { name: "Cybersecurity", url: "https://bantuancode.com/layanan/cybersecurity" },
+        ]}
+      />
+      <ServiceJsonLd
+        name="Jasa Cybersecurity & Ethical Hacking untuk Mahasiswa"
+        description="Jasa bantuan tugas cybersecurity: ethical hacking, penetration testing, digital forensics, dan security audit untuk mahasiswa IT Indonesia."
+        url="https://bantuancode.com/layanan/cybersecurity"
+        price="200000"
+      />
+      <CybersecurityPage />
+    </>
+  );
 }

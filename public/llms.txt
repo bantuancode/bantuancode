@@ -1,0 +1,46 @@
+# Bantuancode
+
+> Bantuancode adalah layanan jasa bantuan tugas coding dan pembuatan aplikasi profesional untuk mahasiswa IT di Indonesia. Menyediakan solusi pengerjaan tugas kuliah, skripsi, dan project coding dengan kode bersih, dokumentasi lengkap, dan garansi revisi. Harga mulai Rp 200.000.
+
+## Layanan Utama
+
+- [Software Development](/layanan/software-development): Jasa pembuatan aplikasi web (React, Next.js, Laravel), mobile (Flutter, React Native), dan desktop. Cocok untuk tugas kuliah, skripsi, atau project mandiri.
+- [Data Science & AI](/layanan/data-science): Jasa bantuan tugas machine learning, data analysis, natural language processing, dan visualisasi data menggunakan Python.
+- [Cybersecurity](/layanan/cybersecurity): Jasa bantuan tugas ethical hacking, penetration testing, digital forensics, dan security audit untuk keperluan akademis dan riset.
+- [Infrastructure](/layanan/infrastructure): Jasa konfigurasi server, cloud deployment, DevOps, dan jaringan komputer.
+
+## Informasi Layanan
+
+- Harga mulai: Rp 200.000
+- Waktu pengerjaan: 3–4 hari kerja (tersedia express 1–2 hari)
+- Revisi: tersedia (tergantung paket)
+- Pembayaran: DP 50% di awal, 50% setelah selesai
+- Metode pembayaran: Transfer bank (BCA, Mandiri, BRI), GoPay, OVO, DANA, QRIS
+- Jam operasional: Senin–Minggu, 08.00–22.00 WIB
+
+## Keunggulan
+
+- Source code bersih dan terdokumentasi
+- Rahasia dan confidential (project tidak dibagikan ke pihak lain)
+- Konsultasi gratis sebelum order
+- Garansi revisi sesuai paket
+
+## Kontak
+
+- Website: https://bantuancode.com
+- WhatsApp: +62-851-8238-0899
+- Instagram: https://instagram.com/bantuancode
+
+## Halaman Penting
+
+- [Beranda](https://bantuancode.com): Overview layanan dan informasi utama
+- [Semua Layanan](https://bantuancode.com/layanan): Daftar lengkap layanan yang tersedia
+- [Blog](https://bantuancode.com/blog): Artikel seputar coding, teknologi, dan tips mahasiswa IT
+- [FAQ](https://bantuancode.com/faq): Pertanyaan yang sering ditanya seputar layanan
+- [Tech Stack](https://bantuancode.com/tech): Teknologi yang dikuasai dan digunakan
+
+## Tidak Tersedia
+
+- Layanan untuk keperluan komersiil skala besar (enterprise)
+- Desain UI/UX tanpa implementasi kode
+- Maintenance jangka panjang (tersedia sebagai add-on terpisah)

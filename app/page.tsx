@@ -4,13 +4,13 @@ import { FAQ } from "@/components/sections/home/FAQ";
 import { FinalCTA } from "@/components/sections/home/FinalCTA";
 import { Hero } from "@/components/sections/home/Hero";
 import { HowItWorks } from "@/components/sections/home/HowItWorks";
-import { Portfolio } from "@/components/sections/home/Portfolio";
 import { Services } from "@/components/sections/home/Services";
 import { SocialProof } from "@/components/sections/home/SocialProof";
 import { TechStack } from "@/components/sections/home/TechStack";
-import { Testimonials } from "@/components/sections/home/Testimonials";
 import { ValueProposition } from "@/components/sections/home/ValueProposition";
 import { Metadata } from "next";
+import { FAQJsonLd } from "@/components/seo/JsonLd";
+import { faqs } from "@/lib/data/faq";
 
 export const metadata: Metadata = {
   title: "Jasa Coding untuk Mahasiswa IT - Mulai Rp 200.000",
@@ -24,6 +24,7 @@ export const metadata: Metadata = {
 export default function Home() {
   return (
     <>
+      <FAQJsonLd faqs={faqs} />
       <Navbar />
       <Hero />
       <SocialProof />
@@ -31,8 +32,6 @@ export default function Home() {
       <TechStack />
       <HowItWorks />
       <ValueProposition />
-      {/* <Portfolio /> */}
-      {/* <Testimonials /> */}
       <FAQ />
       <FinalCTA />
       <Footer />

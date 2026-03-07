@@ -4,7 +4,7 @@ import "./globals.css";
 import { Navbar } from "@/components/layouts/Navbar";
 import { Footer } from "@/components/layouts/Footer";
 import type { Viewport } from "next";
-import { LocalBusinessJsonLd } from "@/components/seo/JsonLd";
+import { LocalBusinessJsonLd, OrganizationJsonLd, WebSiteJsonLd } from "@/components/seo/JsonLd";
 import { GoogleAnalytics } from "@next/third-parties/google";
 
 const geistSans = Geist({
@@ -128,6 +128,8 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased bg-background text-foreground min-h-screen flex flex-col`}
         suppressHydrationWarning
       >
+        <OrganizationJsonLd />
+        <WebSiteJsonLd />
         <LocalBusinessJsonLd />
         <a
           href="#main-content"

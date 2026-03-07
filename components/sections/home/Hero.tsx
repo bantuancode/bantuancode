@@ -34,11 +34,11 @@ export const Hero = () => {
 
             {/* Main Headline */}
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white leading-tight">
-              Layanan Coding{" "}
+              Jasa Bantuan Tugas &{" "}
               <span className="text-transparent bg-clip-text bg-linear-to-r from-blue-400 to-cyan-400">
-                Profesional
+                Pembuatan Aplikasi
               </span>{" "}
-              untuk Mahasiswa
+              untuk Mahasiswa IT
             </h1>
 
             {/* Subheadline */}
