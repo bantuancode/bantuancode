@@ -55,7 +55,7 @@ export const ValueProposition = () => {
     {
       name: "Basic",
       description: "Untuk tugas sederhana dan project kecil",
-      price: "150rb",
+      price: "50rb",
       priceDetail: "Mulai dari",
       features: [
         "CRUD sederhana (±3-5 fitur utama)",
@@ -70,7 +70,7 @@ export const ValueProposition = () => {
     {
       name: "Standard",
       description: "Paling populer untuk tugas kuliah",
-      price: "200rb",
+      price: "150rb",
       priceDetail: "Mulai dari",
       features: [
         "CRUD menengah (±6-10 fitur utama)",

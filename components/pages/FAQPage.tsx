@@ -47,7 +47,7 @@ export const FAQPage = () => {
         {
           question: "Berapa harga layanan ini?",
           answer:
-            "Harga dimulai dari Rp 150.000 untuk project CRUD sederhana (3-5 fitur). Project medium complexity (6-10 fitur) mulai dari Rp 200.000. Untuk project kompleks atau tugas akhir, harga ditentukan setelah diskusi requirement secara detail. Kami memberikan estimasi harga yang transparan sebelum Anda memutuskan untuk order.",
+            "Harga dimulai dari Rp 50.000 untuk project CRUD sederhana (3-5 fitur). Project medium complexity (6-10 fitur) mulai dari Rp 150.000. Untuk project kompleks atau tugas akhir, harga ditentukan setelah diskusi requirement secara detail. Kami memberikan estimasi harga yang transparan sebelum Anda memutuskan untuk order.",
         },
         {
           question: "Bagaimana sistem pembayaran?",
